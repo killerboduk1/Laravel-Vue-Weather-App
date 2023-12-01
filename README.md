@@ -1,10 +1,20 @@
 
 ## About Laravel Vuejs WeatherApp
 
-Weather app using Laravel and Vuejs with these API below
+Weather app using Laravel and Vuejs with these API below.
 
 - [openweathermap](http://api.openweathermap.org/).
 - [geoapify](https://api.geoapify.com/).
+
+## CSS Framework
+
+Bootstrap for reponsive web design
+
+## Functionality 
+
+- On landing page i used the HTML% geolocation to get user current location not 100% accurate
+- When typing input i used the - [geoapify](https://api.geoapify.com/). Api to make the dropdown and user can select the related city according to the input
+- When clicking the address from input dropdown i used the API - [openweathermap](http://api.openweathermap.org/). to get the address weather details and forecast then i used again the - [geoapify](https://api.geoapify.com/). to get the related place with circle raduis to the current address.
 
  ## Installation
 
